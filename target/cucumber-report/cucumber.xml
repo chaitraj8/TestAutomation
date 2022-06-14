@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="63" time="1,251.857">
+    <testcase classname="About Us Feature File" name="To validate About Us page sections" time="12.466">
+        <system-out><![CDATA[Given I am on About Us page.................................................passed
+Then I should see about us header image and title...........................passed
+And I should see Who we are section and What we do section..................passed
+And I should see Contact Us button on about us page.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate Sections in Assessment page" time="19.72">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+Then I should see header section............................................passed
+And I should see footer section.............................................passed
+And I should see header image and title.....................................passed
+And Why Assessment sections is displayed....................................passed
+And What are the different types of Assessment Section is displayed.........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate Why Assessment section" time="16.384">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+When I view Why Assessment section..........................................passed
+Then I should see title and description.....................................passed
+And I should see contact us button..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate What are the different types of Assessment" time="31.661">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+When I view What are different types of Assessment section..................passed
+Then I should see there Leadership Assessment section.......................passed
+And I should see Organization Assessment section............................passed
+And I should see Portfolio Assessment section...............................passed
+And I should see Program Assessment section.................................passed
+And I should see Team Assessment section....................................passed
+And I should see Individual Role or Talent section..........................passed
+And I should see contact us below what are different types of Assessment section.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate Leadership Assessment section" time="16.466">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+When I view Leadership Assessment section...................................passed
+Then I should see leadership title and description..........................passed
+And I should see leadership image...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate Organization Assessment section" time="16.32">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+When I view Organization Assessment section.................................passed
+Then I should see organization title and description........................passed
+And I should see organization image.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate Portfolio Assessment section" time="16.222">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+When I view Portfolio Assessment section....................................passed
+Then I should see portfolio title and description...........................passed
+And I should see portfolio image............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate Program Assessment section" time="16.241">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+When I view Program Assessment section......................................passed
+Then I should see program title and description.............................passed
+And I should see program image..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate Team Assessment section" time="16.465">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+When I view Team Assessment section.........................................passed
+Then I should see team title and description................................passed
+And I should see team image.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Assessment Feature File" name="To validate Individual Role or Talent section" time="16.425">
+        <system-out><![CDATA[Given I am on Assessment page...............................................passed
+When I view Individual Role or Talent section...............................passed
+Then I should see individual role title and description.....................passed
+And I should see individual role image......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Contact Us Feature File" name="To validate contact us page sections" time="14.402">
+        <system-out><![CDATA[Given I am on contact us page...............................................passed
+Then I should see header image with title for Contact us....................passed
+And I should see contact us details section.................................passed
+And I should see contact us form............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Contact Us Feature File" name="To validate Contact us details section" time="11.293">
+        <system-out><![CDATA[Given I am on contact us page...............................................passed
+When I view contact us details section......................................passed
+Then I should see edura logo and address....................................passed
+And I should see phone and timing displayed.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Contact Us Feature File" name="To validate contact us form" time="14.393">
+        <system-out><![CDATA[Given I am on contact us page...............................................passed
+When I view contact us form.................................................passed
+Then I should see firstname lastname email fields...........................passed
+And I should subject and message fields.....................................passed
+And I should see send button................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Course Details Page Feature File" name="To validate navigation to Course Detail Page" time="23.598">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+And I click on any one of the course link...................................passed
+Then I should be navigated to course details page...........................passed
+And I should see header section.............................................passed
+And I should see footer section.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Course Details Page Feature File" name="To validate course details page section" time="27.872">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+And I click on any one of the course link...................................passed
+Then I should be navigated to course details page...........................passed
+And I should see Course snapshot section....................................passed
+And I should see Course Overview section....................................passed
+And I should see Right side bar section.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Course Details Page Feature File" name="To validate course snapshot section" time="40.402">
+        <system-out><![CDATA[Given I am on course details page...........................................passed
+When I view course snapshot section.........................................passed
+Then I should see header image displayed....................................passed
+And I should see the partner logo and certification badge...................passed
+And I should see the title date and location................................passed
+And I should see register button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Course Details Page Feature File" name="To validate course overview section" time="42.009">
+        <system-out><![CDATA[Given I am on course details page...........................................passed
+When I view course overview section.........................................passed
+Then I should see About the course section..................................passed
+And I should see course description section.................................passed
+And I should see meet the instructor section................................passed
+And I should see register buttons...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Course Details Page Feature File" name="To validate right side bar section" time="40.007">
+        <system-out><![CDATA[Given I am on course details page...........................................passed
+When I view right side bar section..........................................passed
+Then I should see duration..................................................passed
+And I should see price......................................................passed
+And I should see reviews section............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Course Details Page Feature File" name="To validate clicking on register button" time="47.146">
+        <system-out><![CDATA[Given I am on course details page...........................................passed
+When I click on register button.............................................passed
+Then I should be navigated to Register page.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate courses page" time="18.824">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+Then I should see header section............................................passed
+And I should see footer section.............................................passed
+And I should see header image displayed along with title....................passed
+And I should see Dropdown filter section to the left........................passed
+And I should see the overview of the courses on the right...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate the Dropdown filter section" time="22.666">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I view the dropdown section............................................passed
+Then I should see course type filter........................................passed
+And I should see certifying body filter.....................................passed
+And I should see Role filter................................................passed
+And I should see clear filter link..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate the course type filter" time="17.775">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I filter by course type................................................passed
+Then I should see course details displayed in the overview section..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate the certfying body filter" time="17.497">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I filter by certifying body............................................passed
+Then I should see course details displayed in the overview section..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate the role filter" time="16.717">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I filter by role.......................................................passed
+Then I should see course details displayed in the overview section..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate Leadership courses" time="16.728">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I view Leadership section..............................................passed
+Then I should see all leadership courses displayed..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate Scrum org courses" time="16.626">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I view Scrum org section...............................................passed
+Then I should see all courses provided by scrum org displayed...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate Scrum Alliance courses" time="16.616">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I view Scrum Alliance section..........................................passed
+Then I should see all courses provided by scrum alliance displayed..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate Safe courses" time="16.697">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I view Safe section....................................................passed
+Then I should see all courses provided by Safe displayed....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate Corporate Training courses" time="14.437">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I view corporate trainings section.....................................passed
+Then I should see all courses provided by corporate trainings displayed.....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Courses Feature File" name="To validate courses details" time="18.418">
+        <system-out><![CDATA[Given I am on courses page..................................................passed
+When I see overview sections................................................passed
+Then I should see leadership safe scrum org scrum alliance and corporate training sections.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To check all sections of homepage are displayed" time="2.036">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+Then I should see header section............................................passed
+And I should see scrolling images section...................................passed
+And I should see Our Services section.......................................passed
+And I should see About Us section...........................................passed
+And I should see Our partners section.......................................passed
+And I should see Get inspired section.......................................passed
+And I should see Stay connected section.....................................passed
+And I should see footer section.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To validate header section" time="2.037">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view header section..................................................passed
+Then I should see Edura logo................................................passed
+And I should see Assessment Training links..................................passed
+And I should see Sign in and Sign Up link...................................passed
+And I should see social media icons.........................................passed
+And I should see view courses link..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="Clicking on Assessment Link" time="10.083">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view header section..................................................passed
+And I click on Assessment link..............................................passed
+Then I should be navigated to Assessment page...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To validate navigation to courses page" time="12.363">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I click on training link...............................................passed
+And I click on courses link in the dropdown.................................passed
+Then I should be navigated to Courses page..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To navigate to Upcoming courses page" time="15.225">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I click on training link...............................................passed
+And I click on Upcoming courses.............................................passed
+Then I should be navigated to upcoming Courses page.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To validate clicking on Training Link" time="7.126">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view header section..................................................passed
+And I click on training link................................................passed
+Then I should see dropdown menu.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To Validate Scrolling Image section" time="2.001">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view Scrolling images section........................................passed
+Then I should see background image..........................................passed
+And I should see title description and button displayed.....................passed
+And I should see scrolling carousal buttons.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To validate our services section" time="2.135">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view Our Services section............................................passed
+Then I should see Our Services Title........................................passed
+And I should see Assessment service and Courses Service images..............passed
+And I should see Assessment and Courses subtitles...........................passed
+And I should see Assessment and courses description.........................passed
+And I should see Assessment and courses learn more link.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To validate About Us section" time="2.007">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view About Us section................................................passed
+Then I should see About Us title is displayed...............................passed
+And I should see Who We are button is displayed.............................passed
+And I should see What we do button is displayed.............................passed
+And I should see Contact Us button is displayed.............................passed
+And I should see description displayed to right of the buttons..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To validate Who we are in About us section" time="22.235">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+And I view About Us section.................................................passed
+When I click on Who Are we button...........................................passed
+Then The description should show subtitle who are we........................passed
+And The details about who we are should be displayed........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To validate Our Partners Section" time="2.082">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view Our Partners section............................................passed
+Then I should see Our Partner title displayed...............................passed
+And I should see scrum org logo displayed...................................passed
+And I should see scrum alliance logo displayed..............................passed
+And I should see SAFE agile logo displayed..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To Validate Get Inspired Section" time="2.038">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view get inspired section............................................passed
+Then I should see Get inspired title........................................passed
+And I should see the reviews displayed......................................passed
+And I should see left and right carousal buttons............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To Validate Stay Connected Section" time="2.075">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view Stay Connected section..........................................passed
+Then I should see Stay Connected title displayed............................passed
+And I should see First name and Last name field displayed...................passed
+And I should see email Address field displayed..............................passed
+And I should see checkbox for I am permitting to contact me.................passed
+And I should see Sign Up button.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Homepage Feature file" name="To validate footer section" time="2.005">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I view footer section..................................................passed
+Then I should see logo displayed............................................passed
+Then I should see Related links section displayed...........................passed
+Then I should see Follow us links displayed with social media icons.........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Register Feature File" name="To validate Sections in Register page" time="47.584">
+        <system-out><![CDATA[Given I am on Register page.................................................passed
+Then I should see header section............................................passed
+And I should see footer section.............................................passed
+And I should see header image and title for register page...................passed
+And I should see registration form section..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Register Feature File" name="To validate Registration form section" time="57.105">
+        <system-out><![CDATA[Given I am on Register page.................................................passed
+When I view registration form section.......................................passed
+Then I should see Course registration title displayed.......................passed
+And I should see course name country mailing address State fields...........passed
+And I should see zip code first name last name fields.......................passed
+And I should see Credit card number expiration date and CVV fields..........passed
+And I should see Register and Reset button..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Register Feature File" name="To validate reset button  on register page" time="85.05">
+        <system-out><![CDATA[Given I am on Register page.................................................passed
+When I enter details and click on reset button..............................passed
+Then I should see that all the fields are reset to blank....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign in Sign Up feature file" name="To validate navigation to Sign in Sign up page" time="10.079">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I click on sign in button in header....................................passed
+Then I should be navigated to sign in page..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign in Sign Up feature file" name="To validate Sign in Sign up page" time="16.091">
+        <system-out><![CDATA[Given I am on sign in page..................................................passed
+Then I should see Sign in Tab...............................................passed
+And I should see Sign up tab................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign in Sign Up feature file" name="To validate Sign up tab" time="18.354">
+        <system-out><![CDATA[Given I am on sign in page..................................................passed
+When I click on Sign up tab.................................................passed
+Then I should see First name last name email fields.........................passed
+And I should see password and verify password fields........................passed
+And I should see sign up field..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign in Sign Up feature file" name="To validate all fields on sign up" time="40.77">
+        <system-out><![CDATA[Given I am on sign up tab...................................................passed
+When I enter all details and click sign up..................................passed
+Then I should see sign in page displayed with Sign in and Go back buttons...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign in Sign Up feature file" name="To validate sign  in tab" time="27.358">
+        <system-out><![CDATA[Given I am on sign in page..................................................passed
+When I enter email and password and click sign in...........................passed
+Then I should see username and log out link in header.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign in Sign Up feature file" name="To validate forgot passwored link" time="21.175">
+        <system-out><![CDATA[Given I am on sign in page..................................................passed
+When I click on forgot password.............................................passed
+Then I should be displayed with email field and send button.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Terms and Conditions feature file" name="To validate Terms and Conditions page" time="12.002">
+        <system-out><![CDATA[Given I am on terms and conditions page.....................................passed
+Then I should see header image with title for terms and conditions page.....passed
+And I should see description about various Terms and condition on the page..passed
+And I should see scroll to top icon the page................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To Validate Upcoming course page" time="18.651">
+        <system-out><![CDATA[Given I am on edura homepage................................................passed
+When I click on training link...............................................passed
+And I click on Upcoming courses.............................................passed
+Then I should see Background image displayed with title Upcoming courses....passed
+And I should see Course filters section to the left side of the page........passed
+And I should see Calendar section with list of courses on right of the page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To validate course filter section" time="27.843">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+When I view course filter section...........................................passed
+Then I should see title as Course filters...................................passed
+And I should see filters for course type certifying body and Month..........passed
+And I should see filters for City Country and Date..........................passed
+And I should see Clear filter button........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To validate calendar section" time="21.746">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+When I view calendar section................................................passed
+Then I should see Calendar icon with title as Calendar......................passed
+And I should see columns for instructor course name location and Date.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To filter by Course type" time="21.554">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+When I filter by course type................................................passed
+Then I should see that the calendar displays courses filtered by selected course type.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To filter by Certifying body" time="21.615">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+When I filter by certifying body............................................passed
+Then I should see that the calendar displays courses filtered by selected certifying body.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To filter by Month" time="21.604">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+When I filter by Month......................................................passed
+Then I should see that the calendar displays courses filtered by selected Month.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To filter by City" time="21.613">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+When I filter by City.......................................................passed
+Then I should see that the calendar displays courses filtered by selected City.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To filter by Country" time="21.596">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+When I filter by country....................................................passed
+Then I should see that the calendar displays courses filtered by selected country.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upcoming Courses Feature file" name="To filter by Date" time="21.435">
+        <system-out><![CDATA[Given I am on Upcoming Courses page.........................................passed
+When I filter by date.......................................................passed
+Then I should see that the calendar displays courses filtered by selected date.passed
+]]></system-out>
+    </testcase>
+</testsuite>
